@@ -17,6 +17,7 @@ router.get("/:platform/:gamertag", async (req, res) => {
       }
     );
 
+    // Error Check
     const data = await response.json();
     if (data.errors && data.errors.length > 0) {
       return res.status(404).json({
