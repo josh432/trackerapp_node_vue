@@ -1,0 +1,30 @@
+{
+  "name": "trackerapp_node_vue",
+  "version": "1.0.0",
+  "description": "Track stats for Apex Legends",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josh432/trackerapp_node_vue.git"
+  },
+  "author": "Josh Silverman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josh432/trackerapp_node_vue/issues"
+  },
+  "homepage": "https://github.com/josh432/trackerapp_node_vue#readme",
+  "dependencies": {
+    "concurrently": "^4.1.2",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
